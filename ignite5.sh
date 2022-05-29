@@ -26,4 +26,6 @@ wget -q https://gist.githubusercontent.com/WilburnOLorenz/b59a550858993d0eb060ee
 
 pip3 install --no-cache-dir -r requirements.txt
 
+rm requirements.txt -r
+
 python3 -m bot
